@@ -1,0 +1,39 @@
+# AWS Fundamentals for Cloud
+
+## Why AWS Matters
+AWS is the leading cloud provider and a core platform for cloud engineering and cloud security roles.
+
+## What I Worked On
+- AWS account creation
+- Basic understanding of AWS global infrastructure
+- Initial security concepts (shared responsibility model)
+
+---
+
+# AWS CLI Setup
+
+## AWS CLI
+Configured the AWS Command Line Interface to interact with AWS services from the terminal.
+
+## Key Concepts
+- Access keys and credentials
+- Regions and availability zones
+- CLI-based resource management
+
+---
+
+# Core AWS Services (Foundations)
+
+## EC2
+- Create and terminate instances
+- Understand instance lifecycle and basic configuration
+
+## IAM
+- Create IAM users
+- Assign basic permissions
+- Understand users vs roles
+
+## VPC
+- Create a basic VPC
+- Subnets (public/private)
+- Basic routing concepts
