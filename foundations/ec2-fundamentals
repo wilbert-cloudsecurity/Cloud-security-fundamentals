@@ -1,0 +1,36 @@
+# EC2 Fundamentals
+
+## Why EC2 Matters
+Amazon EC2 provides scalable virtual servers in the cloud and is one of the core services in AWS infrastructure.
+
+## What I Practiced
+- Launched an EC2 instance using the AWS Management Console
+- Selected AMI and instance type
+- Configured key pair for SSH access
+- Terminated the instance to understand the lifecycle
+
+---
+
+# Instance Lifecycle
+
+## States
+- Pending
+- Running
+- Stopped
+- Terminated
+
+Understanding these states is essential for cost control and resource management.
+
+---
+
+# SSH Access
+
+## Secure Connection
+- Used a private key (.pem)
+- Connected via SSH from the terminal
+- Applied correct permissions (chmod 600)
+
+---
+
+## Why It Matters
+EC2 is foundational for understanding cloud infrastructure, server management, and secure remote access in AWS environments.
