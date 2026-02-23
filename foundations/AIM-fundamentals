@@ -1,0 +1,45 @@
+# IAM Fundamentals
+
+## Why IAM Matters
+AWS Identity and Access Management (IAM) controls who can access AWS resources and what actions they can perform. It is the foundation of cloud security.
+
+## Core Components
+
+### Users
+- Represent individual identities
+- Used for programmatic or console access
+- Assigned permissions directly or through groups
+
+### Groups
+- Collection of users
+- Simplifies permission management
+
+### Roles
+- Temporary access with defined permissions
+- Used by AWS services (e.g., EC2) or federated identities
+- No long-term credentials required
+
+---
+
+# Permissions and Policies
+
+## Policies
+- JSON documents defining allowed or denied actions
+- Attached to users, groups, or roles
+
+## Principle of Least Privilege
+- Grant only the permissions required
+- Reduce security risk and attack surface
+
+---
+
+# What I Practiced
+- Created IAM users
+- Assigned basic permissions
+- Reviewed managed vs inline policies
+- Understood difference between users and roles
+
+---
+
+## Why It Matters
+IAM is critical for securing cloud environments, preventing unauthorized access, and designing scalable access control architectures.

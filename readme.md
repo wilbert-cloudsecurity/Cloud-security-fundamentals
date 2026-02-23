@@ -31,9 +31,9 @@ not just completed tasks.
 The following steps represent the immediate focus after completing AWS Free Tier setup:
 
 
-- Create IAM users and roles using basic policies and least-privilege principles
 - Build a basic VPC with subnets and routing configuration
 - Ec2 seurity groups for traffic control and access managment
+- Basic Bash scripting fundamentals
 
 ---
 
