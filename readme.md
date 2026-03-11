@@ -31,10 +31,9 @@ not just completed tasks.
 The following steps represent the immediate focus after completing AWS Free Tier setup:
 
 
-- Ec2 seurity groups for traffic control and access managment
 - Basic Bash scripting fundamentals
 - Implementing S3 bucket policies and permission management.
-
+- CloudWatch Logs fundamentals and monitoring configuration.
 ---
 
 ## 🔗 Contact

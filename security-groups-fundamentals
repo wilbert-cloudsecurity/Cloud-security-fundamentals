@@ -1,0 +1,51 @@
+# AWS Security Groups Fundamentals
+
+## What Security Groups Are
+
+Security Groups act as virtual firewalls for EC2 instances.
+
+They control inbound and outbound traffic at the instance level.
+
+## Why Security Groups Matter
+
+They are essential for controlling network access and enforcing the principle of least privilege in AWS environments.
+
+---
+
+# Core Concepts
+
+## Inbound Rules
+
+- Control incoming traffic to an instance
+- Define protocol, port range, and source
+
+## Outbound Rules
+
+- Control outgoing traffic from an instance
+- Define protocol, port range, and destination
+
+## Stateful Behavior
+
+- If inbound traffic is allowed, the response is automatically allowed
+- No need to configure separate return rules
+
+## Default Behavior
+
+- Deny all inbound traffic
+- Allow all outbound traffic
+
+---
+
+# What I Practiced
+
+- Created custom Security Groups
+- Configured SSH (port 22) access securely
+- Tested HTTP (port 80) rules
+- Reviewed security implications of 0.0.0.0/0
+
+---
+
+## Why It Matters
+
+Understanding Security Groups is critical for protecting cloud infrastructure and preventing unauthorized network access.
+
