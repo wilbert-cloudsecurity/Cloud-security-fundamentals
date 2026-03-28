@@ -1,0 +1,31 @@
+# AWS & Bash 
+
+## Objective
+
+Learn how to use Bash to create and manage AWS services.
+
+---
+
+## What I Did
+
+- Launched and terminated EC2 instances
+- Created Security Groups and applied rules
+- Built a basic VPC with public subnets and Internet Gateway
+- Managed IAM users and groups
+- Configured Route Tables
+- Connected to the EC2 instance from a browser displaying a simple "Welcome" page
+
+---
+
+## Key Concepts
+
+- Bash scripting for AWS CLI automation
+- Network isolation and routing
+- Security Groups and least privilege
+- IAM fundamentals
+
+---
+
+## Result
+
+Successfully automated the creation of AWS infrastructure and accessed a public EC2 instance using a web browser.

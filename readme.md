@@ -24,6 +24,8 @@ not just completed tasks.
 - `README.md`  
   Repository overview and context.
 
+- `mini-projects`
+  collection of exercises and projects to apply theory into practice.
 ---
 
 ## 🔜 Next Steps
@@ -31,9 +33,9 @@ not just completed tasks.
 The following steps represent the immediate focus after completing AWS Free Tier setup:
 
 
-- Basic Bash scripting fundamentals
 - Implementing S3 bucket policies and permission management.
 - CloudWatch Logs fundamentals and monitoring configuration.
+- Terraform – Hands-On Introduction
 ---
 
 ## 🔗 Contact
