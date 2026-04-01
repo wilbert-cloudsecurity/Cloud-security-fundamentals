@@ -1,0 +1,49 @@
+# AWS S3 Fundamentals
+
+## What S3 Is
+
+Amazon Simple Storage Service (S3) is an object storage service that allows you to store and retrieve any amount of data from anywhere.
+
+## Why S3 Matters
+
+S3 is essential for cloud storage, backups, and static content hosting. Understanding permissions and policies is key for security and access control.
+
+---
+
+# Core Concepts
+
+## Buckets
+
+- Containers for objects (files)
+- Must have globally unique names
+- Can be public or private
+
+## Objects
+
+- Files stored in S3
+- Each has a key (name), metadata, and version (if versioning enabled)
+
+## Permissions
+
+- IAM policies control who can access S3 buckets/objects
+- Bucket policies allow fine-grained access control
+- ACLs provide legacy object-level permissions
+
+---
+
+# What I Practiced
+
+- Created buckets using the AWS Management Console
+- Uploaded, downloaded, and deleted objects
+- Configured bucket policies for read/write access
+- Practiced the same operations using AWS CLI commands:
+    - `aws s3 mb s3://my-bucket`
+    - `aws s3 cp file.txt s3://my-bucket/`
+    - `aws s3 ls s3://my-bucket/`
+    - `aws s3 rm s3://my-bucket/file.txt`
+
+---
+
+## Why It Matters
+
+Mastering S3 and its permission models is critical for secure data storage, backups, and cloud-native applications.

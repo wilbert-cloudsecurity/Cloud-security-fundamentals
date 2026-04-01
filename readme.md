@@ -30,12 +30,9 @@ not just completed tasks.
 
 ## 🔜 Next Steps
 
-The following steps represent the immediate focus after completing AWS Free Tier setup:
-
-
-- Implementing S3 bucket policies and permission management.
 - CloudWatch Logs fundamentals and monitoring configuration.
 - Terraform – Hands-On Introduction
+- EC2 and Security Groups deployment using Terraform.
 ---
 
 ## 🔗 Contact
