@@ -1,0 +1,46 @@
+## What CloudWatch Logs Is
+
+Amazon CloudWatch Logs allows you to collect, monitor, and store logs from AWS resources and applications in real time.
+
+## Why CloudWatch Logs Matters
+
+Monitoring and analyzing logs is critical for detecting issues, auditing activity, and ensuring cloud infrastructure security and reliability.
+
+---
+
+# Core Concepts
+
+## Log Groups
+
+- Containers for multiple log streams
+- Help organize logs by application, service, or environment
+
+## Log Streams
+
+- Sequence of log events from the same source
+- Can be an EC2 instance, Lambda function, or application
+
+## Metrics and Filters
+
+- Extract meaningful metrics from logs
+- Trigger alarms or actions based on patterns
+
+## Retention
+
+- Control how long logs are stored
+- Supports automatic deletion after a set period
+
+---
+
+# What I Practiced
+
+- Created CloudWatch Log Groups and Streams
+- Pushed logs from EC2 instances using AWS CLI
+- Viewed and filtered logs in the CloudWatch console
+- Set up basic metric filters for monitoring specific events
+
+---
+
+## Why It Matters
+
+Understanding CloudWatch Logs is essential for monitoring, troubleshooting, and securing AWS infrastructure.

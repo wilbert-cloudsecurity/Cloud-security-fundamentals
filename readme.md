@@ -30,12 +30,14 @@ not just completed tasks.
 
 ## 🔜 Next Steps
 
-- CloudWatch Logs fundamentals and monitoring configuration.
 - Terraform – Hands-On Introduction
 - EC2 and Security Groups deployment using Terraform.
+- Explore and understand AWS architecture fundamentals 
+
 ---
 
 ## 🔗 Contact
 
 - GitHub: https://github.com/wilbert-cloudsecurity
 - Email: wilbertarm2007@gmail.com
+
