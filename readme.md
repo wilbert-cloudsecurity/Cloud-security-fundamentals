@@ -30,7 +30,6 @@ not just completed tasks.
 
 ## 🔜 Next Steps
 
-- Terraform – Hands-On Introduction
 - EC2 and Security Groups deployment using Terraform.
 - Explore and understand AWS architecture fundamentals 
 
