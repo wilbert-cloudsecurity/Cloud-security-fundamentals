@@ -1,0 +1,74 @@
+# EC2 and Security Groups with Terraform
+
+## What This Project Covers
+
+Provisioning EC2 instances and Security Groups using Terraform, progressing from a basic setup to a more structured and reusable configuration.
+
+## Why It Matters
+
+Combining EC2 and Security Groups with Terraform demonstrates how to automate infrastructure while applying security and scalability principles.
+
+---
+
+# Core Concepts
+
+## EC2 with Terraform
+
+- Defined EC2 instances using Terraform resources
+- Configured AMI, instance type, and tags
+- Enabled public IP assignment
+
+## Security Groups
+
+- Created a custom Security Group
+- Allowed SSH access (port 22)
+- Applied least privilege principle
+
+## Variables
+
+- Used variables for region, AMI, instance type, key pair, and security group
+- Improved reusability and flexibility of the configuration
+
+## Count
+
+- Used `count` to create multiple EC2 instances
+- Demonstrated scalable infrastructure provisioning
+
+---
+
+# What I Practiced
+
+- Started with a basic EC2 configuration in `main.tf`
+- Created a separate `variables.tf` file with core variables
+- Expanded the configuration to include:
+    - Security Group
+    - Public IP assignment
+    - Tags for resource identification
+    - Multiple instances using `count`
+- Created and applied infrastructure using Terraform workflow
+- Connected to EC2 instances via SSH to validate deployment
+- Tested Security Group by allowing only SSH access
+
+---
+
+# Project Structure
+
+- `main.tf` → EC2 and Security Group configuration
+- `variables.tf` → reusable variables (region, AMI, instance type, key, SG)
+- Additional configuration files as the setup evolved
+
+---
+
+## Key Takeaways
+
+- Infrastructure can be progressively improved using Terraform
+- Variables are essential for reusable and clean configurations
+- Security Groups should follow least privilege principles
+- Terraform enables scalable resource creation using `count`
+- Validating infrastructure via SSH ensures real functionality
+
+---
+
+## Why It Matters
+
+This project demonstrates real-world Infrastructure as Code practices by combining automation, security, and scalability in AWS.

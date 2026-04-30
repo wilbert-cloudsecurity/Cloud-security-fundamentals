@@ -28,13 +28,6 @@ not just completed tasks.
   collection of exercises and projects to apply theory into practice.
 ---
 
-## 🔜 Next Steps
-
-- EC2 and Security Groups deployment using Terraform.
-- Explore and understand AWS architecture fundamentals 
-
----
-
 ## 🔗 Contact
 
 - GitHub: https://github.com/wilbert-cloudsecurity
