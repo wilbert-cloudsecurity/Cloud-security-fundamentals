@@ -1,0 +1,58 @@
+# AWS CloudFront Fundamentals
+
+## What CloudFront Is
+
+Amazon CloudFront is a Content Delivery Network (CDN) that delivers content with low latency using edge locations distributed around the world.
+
+## Why CloudFront Matters
+
+CloudFront improves performance, reduces latency, and adds security layers in front of applications and static websites.
+
+---
+
+# Core Concepts
+
+## Distributions
+
+- Main CloudFront configuration resource
+- Defines origins, behaviors, and caching settings
+
+## Origins
+
+- Source of the content served by CloudFront
+- Can be S3 buckets, EC2 instances, or load balancers
+
+## Edge Locations
+
+- Global locations that cache content closer to users
+- Reduce response time and improve availability
+
+## Caching
+
+- Stores content temporarily at edge locations
+- Reduces requests to the origin and improves performance
+
+---
+
+# What I Practiced
+
+- Learned CloudFront architecture and request flow
+- Created a CloudFront distribution for an S3 origin
+- Reviewed cache behavior and invalidation concepts
+- Explored HTTPS support and secure content delivery
+- Understood how CloudFront integrates with S3 and AWS services
+
+---
+
+# Key Considerations
+
+- Proper caching configuration improves performance and reduces cost
+- CloudFront can restrict direct access to S3 using Origin Access Control (OAC)
+- HTTPS should be enabled for secure content delivery
+- Cache invalidations may be required after updating content
+
+---
+
+## Why It Matters
+
+CloudFront is widely used to improve scalability, performance, and security for modern cloud applications and static websites.
