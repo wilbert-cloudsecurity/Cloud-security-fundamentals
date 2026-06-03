@@ -24,7 +24,7 @@ not just completed tasks.
 - `README.md`  
   Repository overview and context.
 
-- `mini-projects`
+- `labs`
   collection of exercises and projects to apply theory into practice.
 ---
 
