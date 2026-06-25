@@ -1,0 +1,47 @@
+# Database Fundamentals
+
+## What Databases Are
+Databases are systems designed to store, organize, retrieve, and manage data efficiently.
+
+## Why Databases Matter
+Databases are a core component of modern applications. Understanding how data is stored and accessed is essential for Cloud Engineering, DevOps, and Cloud Security roles.
+
+---
+
+# Core Concepts
+
+## Relational Databases
+- Store data in tables composed of rows and columns  
+- Use relationships between tables to organize information  
+- Common examples include PostgreSQL and MySQL  
+
+## SQL
+- Structured Query Language used to interact with relational databases  
+- Supports operations such as creating, reading, updating, and deleting data  
+
+## Tables and Schemas
+- Tables store related data records  
+- Schemas provide logical organization and structure for database objects  
+
+## Primary and Foreign Keys
+- Primary keys uniquely identify records  
+- Foreign keys establish relationships between tables  
+
+## Transactions
+- Ensure data consistency and integrity  
+- Follow ACID principles for reliable operations  
+
+---
+
+# What I Practiced
+
+- Learned fundamental database concepts and terminology  
+- Studied relational database architecture  
+- Explored SQL as a language for data management  
+- Reviewed table relationships and key constraints  
+- Understood the importance of transactions and data integrity  
+
+---
+
+## Why It Matters
+Understanding databases is essential for designing, deploying, and securing modern cloud applications.
