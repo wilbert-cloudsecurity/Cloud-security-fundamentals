@@ -1,0 +1,55 @@
+# PostgreSQL in Docker Lab
+
+## What This Lab Covers
+
+This lab focuses on deploying and managing a PostgreSQL database using Docker while practicing basic database administration and SQL operations.
+
+---
+
+## Why It Matters
+
+Running databases in containers is a common practice in modern cloud environments. This lab combines containerization and database management skills frequently used in real-world projects.
+
+---
+
+# Core Concepts
+
+## PostgreSQL
+- Open-source relational database management system  
+- Widely used in cloud-native applications  
+
+## Docker Containers
+- Provide isolated and reproducible environments  
+- Simplify database deployment and management  
+
+## SQL Operations
+- Create and manage databases  
+- Insert, query, update, and delete records  
+
+---
+
+# What I Practiced
+
+- Deployed a PostgreSQL instance inside a Docker container  
+- Connected to the database from the terminal  
+- Created and managed a database using SQL commands  
+- Created tables and inserted records  
+- Queried and modified stored data  
+- Practiced basic database administration tasks  
+
+---
+
+# Project Structure
+
+- `docker-compose.yml` → PostgreSQL container definition  
+- `init.sql` → Database initialization scripts  
+- `queries.sql` → SQL practice commands  
+
+---
+
+## Key Takeaways
+
+- Containers simplify database deployment and testing  
+- PostgreSQL provides a powerful and flexible relational database platform  
+- SQL skills are fundamental for managing application data  
+- Combining Docker and databases is essential for modern infrastructure workflows
